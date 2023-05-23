@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class Enunciado01 {
+	
+	String[] nomes = new String [10]; 
+	Scanner objScanner = new Scanner(System.in);
+	
+	public void listarNomes() {
+		
+		System.out.println("ADICIONE O PRIMEIRO NOME ");
+		Scanner objScanner = new Scanner(System.in);
+		
+		System.out.println("ADICIONE O SEGUNDO NOME ");
+		Scanner objScanner = new Scanner(System.in);
+		
+		System.out.println("ADICIONE O TERCEIRO NOME ");
+		Scanner objScanner = new Scanner(System.in);
+		
+		System.out.println("ADICIONE O QUARTO NOME ");
+		Scanner objScanner = new Scanner(System.in); 
+		
+		System.out.println("ADICIONE O QUINNTO NOME ");
+		Scanner objScanner = new Scanner(System.in); 
+		
+		System.out.println("ADICIONE O SEXTO NOME ");
+		Scanner objScanner = new Scanner(System.in);
+		
+		System.out.println("ADICIONE O SÉTIMO NOME ");
+		Scanner objScanner = new Scanner(System.in);
+		
+		System.out.println("ADICIONE O OITAVO NOME ");
+		Scanner objScanner = new Scanner(System.in);
+		
+		System.out.println("ADICIONE O NONO NOME ");
+		Scanner objScanner = new Scanner(System.in);
+		
+		System.out.println("ADICIONE O DÉCIMO NOME ");
+		Scanner objScanner = new Scanner(System.in);
+		
+		for(int indice = 0; indice < nomes.length; indice++); {
+			System.out.println("LISTAGEM DE NOMES: ");
+		}
+	}
+}
+

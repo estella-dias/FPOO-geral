@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Enunciado01 {
+	
+	String[] nomes = new String [10]; 
+	Scanner objScanner = new Scanner(System.in);
+	
+	public void listarNomes() {
+		
+		int cont = 0; 
+		while (cont < 10); 
+		
+		System.out.println("ADICIONE O PRIMEIRO NOME ");
+		nomes[10] = objScanner.next(); 
+		
+	
+		
+		//r(int indice = 0; indice < nomes.length; indice++); {
+	 //stem.out.println((indice + 1) + "º ALUNO(A); " + nomes[indice]);
+		}
+	}
+}
+

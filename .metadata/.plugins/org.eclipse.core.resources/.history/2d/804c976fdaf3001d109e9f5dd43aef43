@@ -1,0 +1,13 @@
+
+public class Enunciado01 {
+	
+	String[] nomes = new string [10]; 
+	
+	public void listarNomes() {
+		
+		for(int indice = 0; indice < nomes.length; indice++); {
+			System.out.println("LISTAGEM DE NOMES: ");
+		}
+	}
+}
+

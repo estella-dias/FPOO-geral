@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Enunciado01 {
+	
+	String[] nomes = new String [10]; 		
+	Scanner objScanner = new Scanner(System.in);
+	
+	public void listarNomes() {
+	
+		for(int indice = 0; indice < nomes.length; indice++);{
+	
+		
+		int cont = 0; 
+		while (cont < 10); {
+		
+		System.out.println("ADICIONE UM NOME" + (cont + 1));
+		nomes[cont] = objScanner.next(); 
+		cont ++;
+		
+	 }
+		
+		
+	
+	}
+		
+		int cont = 0; 
+		while(cont < nomes.length) {
+			
+			System.out.println("LISTAGEM DE NOMES: ");
+			cont++;
+			
+		}
+
+} 
+	
+}
